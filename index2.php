@@ -50,21 +50,21 @@
 <section id="destinations" class="bg-light">
     <div class="container">
         <h2 class="section-title">Popular Destinations</h2>
-        <p class="section-subtitle">From tropical beaches to historic cities, discover the world's most captivating places.</p>
+        <p class="section-subtitle">Discover some of the most breathtaking spots in Atok, Benguet.</p>
         
         <!-- Destination 1 - Right Side -->
         <div class="destination-row">
             <div class="row align-items-center destination-item">
                 <div class="col-md-6">
                     <div class="destination-content">
-                        <h3>Baguio, Benguet</h3>
-                        <p>Discover the City of Pines, a cool mountain haven nestled in the heart of Benguet. With its fresh mountain breeze, scenic pine forests, and vibrant cultural attractions, Baguio offers the perfect escape from the tropical heat.</p>
-                        <button class="btn btn-outline-primary">Explore Baguio</button>
+                        <h3>Northern Blossom Flower Farm</h3>
+                        <p>A scenic flower farm in Atok, Benguet known for its vibrant rows of ornamental blooms, cool climate, and stunning views of nearby mountains. Perfect for photography and relaxation.</p>
+                        <button class="btn btn-outline-primary">Explore Northern Blossom</button>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="destination-image">
-                        <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Baguio, Benguet">
+                        <img src="destinations/northern-blossom.jpg" alt="Northern Blossom Flower Farm">
                     </div>
                 </div>
             </div>
@@ -74,20 +74,20 @@
                 </svg>
             </div>
         </div>
-        
-        <!-- Destination 2 - Left Side -->
+
+        <!-- Destination 2 – Left Side -->
         <div class="destination-row">
             <div class="row align-items-center destination-item">
                 <div class="col-md-6 order-md-2">
                     <div class="destination-content">
-                        <h3>Strawberry Farm, La Trinidad</h3>
-                        <p>Experience the charming strawberry farms of La Trinidad where you can pick fresh strawberries directly from the fields. Surrounded by rolling hills and cool mountain air, this destination offers a unique agricultural tourism experience with stunning views.</p>
-                        <button class="btn btn-outline-primary">Visit Strawberry Farm</button>
+                        <h3>Sakura Park (Haight’s Place / Paoay)</h3>
+                        <p>A peaceful cherry blossom park in Atok where sakura trees bloom during the cold season. Visitors enjoy the cool air, serene atmosphere, and unique mountain scenery.</p>
+                        <button class="btn btn-outline-primary">Visit Sakura Park</button>
                     </div>
                 </div>
                 <div class="col-md-6 order-md-1">
                     <div class="destination-image">
-                        <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Strawberry Farm, La Trinidad">
+                        <img src="destinations/sakura.jpg" alt="Sakura Park Atok">
                     </div>
                 </div>
             </div>
@@ -97,38 +97,38 @@
                 </svg>
             </div>
         </div>
-        
-        <!-- Destination 3 - Right Side -->
+
+        <!-- Destination 3 – Right Side -->
         <div class="destination-row">
             <div class="row align-items-center destination-item">
                 <div class="col-md-6">
                     <div class="destination-content">
-                        <h3>Mines View Park, Itogon</h3>
-                        <p>Witness breathtaking panoramic views of Itogon's famous gold mines at this scenic overlook. The expansive vista showcases the dramatic landscape with terraced mining operations set against majestic mountain peaks and morning mist.</p>
-                        <button class="btn btn-outline-primary">Explore Mines View Park</button>
+                        <h3>Mt. Timbac / Mt. Timbak</h3>
+                        <p>One of Benguet’s highest peaks, offering an easy hike with rewarding panoramic views. It is also home to ancient Ibaloi mummification caves and cultural heritage sites.</p>
+                        <button class="btn btn-outline-primary">Explore Mt. Timbac</button>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="destination-image">
-                        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Mines View Park, Itogon">
+                        <img src="destinations/mt-timbac.jpg" alt="Mt. Timbac">
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!-- Destination 4 - Left Side -->
+
+        <!-- Destination 4 – Left Side -->
         <div class="destination-row">
             <div class="row align-items-center destination-item">
                 <div class="col-md-6 order-md-2">
                     <div class="destination-content">
-                        <h3>Kabayan, Benguet</h3>
-                        <p>Discover the breathtaking Kabayan Hanging Coffins, an ancient burial practice carved into the cliffs. This mystical destination offers fascinating cultural heritage, stunning mountain vistas, and a glimpse into the region's rich history and traditions.</p>
-                        <button class="btn btn-outline-primary">Explore Kabayan</button>
+                        <h3>2nd Highest Point (Halsema Highway)</h3>
+                        <p>A popular viewpoint along Halsema Highway offering breathtaking views of the Cordillera mountains. One of the highest road-accessible points in the Philippines.</p>
+                        <button class="btn btn-outline-primary">View Halsema Highpoint</button>
                     </div>
                 </div>
                 <div class="col-md-6 order-md-1">
                     <div class="destination-image">
-                        <img src="https://images.unsplash.com/photo-1536152470836-b943b246224c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kabayan, Benguet">
+                        <img src="destinations/second-highest-point.jpg" alt="2nd Highest Point Halsema Highway">
                     </div>
                 </div>
             </div>
@@ -138,53 +138,10 @@
                 </svg>
             </div>
         </div>
-        
-        <!-- Destination 5 - Right Side -->
-        <div class="destination-row">
-            <div class="row align-items-center destination-item">
-                <div class="col-md-6">
-                    <div class="destination-content">
-                        <h3>Sagano Flower Farm, Atok</h3>
-                        <p>Experience the vibrant Sagano Flower Farm where thousands of colorful blooms paint the hillside in brilliant hues. Perfect for nature lovers and photographers, this flower garden offers stunning views and fresh flowers in a picturesque mountain setting.</p>
-                        <button class="btn btn-outline-primary">Visit Flower Farm</button>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="destination-image">
-                        <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Sagano Flower Farm, Atok">
-                    </div>
-                </div>
-            </div>
-            <div class="curve-separator">
-                <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z" class="shape-fill"></path>
-                </svg>
-            </div>
-        </div>
-        
-        <!-- Destination 6 - Left Side -->
-        <div class="destination-row">
-            <div class="row align-items-center destination-item">
-                <div class="col-md-6 order-md-2">
-                    <div class="destination-content">
-                        <h3>Eco-Garden, Baguio</h3>
-                        <p>Immerse yourself in the natural beauty of Eco-Garden, a serene sanctuary showcasing sustainable agriculture and organic farming. Surrounded by lush vegetation and mountain tranquility, it's an ideal destination for eco-conscious travelers and nature enthusiasts.</p>
-                        <button class="btn btn-outline-primary">Discover Eco-Garden</button>
-                    </div>
-                </div>
-                <div class="col-md-6 order-md-1">
-                    <div class="destination-image">
-                        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Eco-Garden, Baguio">
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </section>
 
-<style>
-   
-</style>
 
     <!-- Features Section -->
     <section id="features">
@@ -265,7 +222,6 @@
         <div class="container text-center">
             <h2>Stay Inspired</h2>
             <p>Subscribe to our newsletter for travel tips, exclusive deals, and destination inspiration.</p>
-            
             <div class="newsletter-form">
                 <div class="input-group">
                     <input type="email" class="form-control" placeholder="Your email address">
