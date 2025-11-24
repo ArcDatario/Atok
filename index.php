@@ -37,15 +37,16 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Ed-Atok</h1>
-                <p>Explore breathtaking destinations and create unforgettable memories with our curated travel experiences.</p>
-                <button class="btn btn-hero">Explore Destinations</button>
-            </div>
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Ed-Atok</h1>
+            <p>Explore breathtaking destinations and create unforgettable memories with our curated travel experiences.</p>
+            <button class="btn btn-hero">Explore Destinations</button>
         </div>
-    </section>
+    </div>
+</section>
 
 <!-- Destinations Section -->
 <section id="destinations" class="bg-light">
@@ -347,63 +348,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-    // Initialize AOS
-    AOS.init({
-        duration: 1000,
-        once: true,
-        offset: 100
-    });
-</script>
-    <script>
-        // Destination carousel functionality
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize all carousels
-    document.querySelectorAll('.image-carousel').forEach(initCarousel);
-});
-
-function initCarousel(carousel) {
-    const images = carousel.querySelectorAll('.carousel-image');
-    const prevBtn = carousel.querySelector('.carousel-btn.prev');
-    const nextBtn = carousel.querySelector('.carousel-btn.next');
-    const indicators = carousel.querySelectorAll('.carousel-indicator');
-    
-    let currentIndex = 0;
-    
-    function showImage(index) {
-        // Hide all images
-        images.forEach(img => img.classList.remove('active'));
-        indicators.forEach(indicator => indicator.classList.remove('active'));
-        
-        // Show current image
-        images[index].classList.add('active');
-        indicators[index].classList.add('active');
-        
-        currentIndex = index;
-    }
-    
-    function nextImage() {
-        let nextIndex = (currentIndex + 1) % images.length;
-        showImage(nextIndex);
-    }
-    
-    function prevImage() {
-        let prevIndex = (currentIndex - 1 + images.length) % images.length;
-        showImage(prevIndex);
-    }
-    
-    // Event listeners
-    if (nextBtn) nextBtn.addEventListener('click', nextImage);
-    if (prevBtn) prevBtn.addEventListener('click', prevImage);
-    
-    // Indicator clicks
-    indicators.forEach((indicator, index) => {
-        indicator.addEventListener('click', () => showImage(index));
-    });
-    
-    // Show first image
-    showImage(0);
-}
-    </script>
+    <script src="assets/js/animation.js"></script>
 </body>
 </html>
