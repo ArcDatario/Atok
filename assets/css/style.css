@@ -1,23 +1,23 @@
  :root {
-            --primary: #2c3e50;
-            --accent: #63A361;
-            --light: #ecf0f1;
-            --dark: #1a252f;
-            --olive: #7f8c8d;
-        }
+--primary: #2c3e50;
+--accent: #63A361;
+--light: #ecf0f1;
+--dark: #1a252f;
+--olive: #7f8c8d;
+}
+
+body {
+font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+color: var(--primary);
+line-height: 1.6;
+overflow-x: hidden;
+}
         
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            color: var(--primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        
-        /* Hero Section */
-        .hero {
+/* Hero Section */
+.hero {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), 
-                url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -542,3 +542,129 @@
     }
 }
 /* destination css ends */
+/* Registration Modal Styles */
+.modal-content {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+    border-bottom: 1px solid #e9ecef;
+    padding: 1.5rem;
+}
+
+.modal-title {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    border-top: 1px solid #e9ecef;
+    padding: 1rem 1.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.form-check-input:checked {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+
+.form-check-label {
+    color: #495057;
+}
+
+#parkingInfo {
+    border: none;
+    border-radius: 8px;
+    background-color: #e8f4fd;
+    color: var(--primary);
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+}
+
+/* Loading state */
+#submitRegistration .spinner-border {
+    width: 1rem;
+    height: 1rem;
+}
+
+#submitRegistration.loading .submit-text {
+    display: none;
+}
+
+#submitRegistration.loading .spinner-border {
+    display: inline-block !important;
+}
+
+/* Flatpickr Calendar Styling */
+.flatpickr-calendar {
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.flatpickr-day.selected {
+    background-color: var(--accent);
+    border-color: var(--accent);
+}
+
+.flatpickr-day.today {
+    border-color: var(--accent);
+}
+
+.flatpickr-day:hover {
+    background-color: #e9ecef;
+}
+
+/* Toast Notifications */
+.toast-notification {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    border-radius: 8px !important;
+}
+/* Toast Notifications */
