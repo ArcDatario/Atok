@@ -43,7 +43,7 @@
         <div class="hero-content">
             <h1>Ed-Atok</h1>
             <p>Explore breathtaking destinations and create unforgettable memories with our curated travel experiences.</p>
-            <button class="btn btn-hero">Explore Destinations</button>
+            <button class="btn btn-hero">Register</button>
         </div>
     </div>
 </section>
