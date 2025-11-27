@@ -19,8 +19,8 @@
 	<div class="main-wrapper">
 		<div class="header">
 			<div class="header-left">
-				<a href="dashboard" class="logo"> <img src="assets/img/hotel_logo.png" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
-				<a href="dashboard" class="logo logo-small"> <img src="assets/img/hotel_logo.png" alt="Logo" width="30" height="30"> </a>
+				<a href="dashboard" class="logo"> <img src="assets/img/lock.png" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
+				<a href="dashboard" class="logo logo-small"> <img src="assets/img/lock.png" alt="Logo" width="30" height="30"> </a>
 			</div>
 			<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
 			<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
@@ -34,7 +34,7 @@
 								<li class="notification-message">
 									<a href="#">
 										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-02.jpg">
+											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/lock.png">
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">Carlson Tech</span> has approved <span class="noti-title">your estimate</span></p>
@@ -46,7 +46,7 @@
 								<li class="notification-message">
 									<a href="#">
 										<div class="media"> <span class="avatar avatar-sm">
-											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/profiles/avatar-11.jpg">
+											<img class="avatar-img rounded-circle" alt="User Image" src="assets/img/lock.png">
 											</span>
 											<div class="media-body">
 												<p class="noti-details"><span class="noti-title">International Software
@@ -89,10 +89,10 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown has-arrow">
-					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <span class="user-img"><img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31" alt="Admin"></span> </a>
+					<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown"> <span class="user-img"><img class="rounded-circle" src="assets/img/lock.png" width="31" alt="Admin"></span> </a>
 					<div class="dropdown-menu">
 						<div class="user-header">
-							<div class="avatar avatar-sm"> <img src="assets/img/profiles/avatar-01.jpg" alt="User Image" class="avatar-img rounded-circle"> </div>
+							<div class="avatar avatar-sm"> <img src="assets/img/lock.png" alt="User Image" class="avatar-img rounded-circle"> </div>
 							<div class="user-text">
 								<h6>Admin</h6>
 								<p class="text-muted mb-0">Administrator</p>
@@ -258,14 +258,14 @@
 								<ul class="activity-list">
 									<li class="activity-list_li">
 										<div class="activity-user">
-											<a href="profile" title="Lesley Grauer" data-toggle="tooltip" class="avatar"> <img alt="Lesley Grauer" src="assets/img/profiles/avatar-01.jpg" class="img-fluid rounded-circle"> </a>
+											<a href="profile" title="Lesley Grauer" data-toggle="tooltip" class="avatar"> <img alt="Lesley Grauer" src="assets/img/lock.png" class="img-fluid rounded-circle"> </a>
 										</div>
 										<div class="activity-content">
 											<div class="timeline-content"> <a href="profile" class="name">Lesley Grauer</a> added new work <a href="activities">For Staff</a> <span class="time">4 mins ago</span> </div>
 										</div> <a class="activity-delete" href="" title="Delete">&times;</a> </li>
 									<li class="activity-list_li">
 										<div class="activity-user">
-											<a href="profile" title="Lesley Grauer" data-toggle="tooltip" class="avatar"> <img alt="Lesley Grauer" src="assets/img/profiles/avatar-02.jpg" class="img-fluid rounded-circle"> </a>
+											<a href="profile" title="Lesley Grauer" data-toggle="tooltip" class="avatar"> <img alt="Lesley Grauer" src="assets/img/lock.png" class="img-fluid rounded-circle"> </a>
 										</div>
 										<div class="activity-content">
 											<div class="timeline-content"> <a href="profile" class="name">Lesley Grauer</a> added new work <a href="activities">For Staff</a> <span class="time">4 mins ago</span> </div>
