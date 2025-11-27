@@ -25,6 +25,12 @@
                         <label for="email" class="form-label small fw-medium">Email Address *</label>
                         <input type="email" class="form-control form-control-sm" id="email" required placeholder="your@email.com">
                     </div>
+
+                    <div class="mb-3">
+                        <label for="pax" class="form-label small fw-medium">Number of Pax *</label>
+                        <input type="number" class="form-control form-control-sm" id="pax" required min="1" max="20" value="1" placeholder="Number of persons">
+                        <div class="form-text small">Number of people including yourself</div>
+                    </div>
                     
                     <div class="mb-3">
                         <label for="visitDate" class="form-label small fw-medium">Visit Date *</label>

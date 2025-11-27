@@ -16,43 +16,42 @@
     <!-- Navigation -->
     <?php include "includes/navbar.php";?>
 
-<!-- Hero Section -->
-<section class="hero">
-    <div class="container">
-        <div class="hero-content">
-            <h1>Ed-Atok</h1>
-            <p>Explore breathtaking destinations and create unforgettable memories with our curated travel experiences.</p>
-            <button class="btn btn-hero" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</button>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ed-Atok</h1>
+                <p>Explore breathtaking destinations and create unforgettable memories with our curated travel experiences.</p>
+                <button class="btn btn-hero" data-bs-toggle="modal" data-bs-target="#registrationModal">Register</button>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Registration Modal -->
-   <?php include "modal/registration-modal.php";?>
+    <!-- Registration Modal -->
+    <?php include "modal/registration-modal.php";?>
 
-<!-- Destinations Section -->
-   <?php include "includes/destinations.php";?>
+    <!-- Destinations Section -->
+    <?php include "includes/destinations.php";?>
 
+    <!-- Features Section -->
+    <?php include "includes/features.php";?>
 
-    
-<!-- Features Section -->
-   <?php include "includes/features.php";?>
+    <!-- Testimonials Section -->
+    <?php include "includes/testimonials.php";?>
 
-
-<!-- Testimonials Section -->
-   <?php include "includes/testimonials.php";?>
-
-<!-- Newsletter Section -->
-   <?php include "includes/newsletter.php";?>
+    <!-- Newsletter Section -->
+    <?php include "includes/newsletter.php";?>
 
     <!-- Footer -->
-   <?php include "includes/footer.php";?>
+    <?php include "includes/footer.php";?>
 
+    <!-- JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.js"></script>
     
+    <!-- Custom JavaScript Files -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/animation.js"></script>
     <script src="assets/js/toast.js"></script>

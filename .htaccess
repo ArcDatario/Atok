@@ -1,30 +1,32 @@
+RewriteEngine On
 
-    RewriteEngine On
+# --------------------------------------
+# Custom 404 Error Page
+# --------------------------------------
+ErrorDocument 404 /error-404.php
 
-    # --------------------------------------
-    # Custom 404 Error Page
-    # --------------------------------------
-    ErrorDocument 404 /error-404.php
+# --------------------------------------
+# Exclude AJAX/API files from URL rewriting
+# --------------------------------------
+RewriteRule ^(registration_process|ajax_.*|api_.*)\.php$ - [L]
 
-    # --------------------------------------
-    # 1. Redirect .php → clean URL
-    # --------------------------------------
-    RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?]
-    RewriteRule ^ %1 [R=301,L]
+# --------------------------------------
+# 1. Redirect .php → clean URL
+# --------------------------------------
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?]
+RewriteRule ^ %1 [R=301,L]
 
-    # --------------------------------------
-    # 2. If a .php file exists, serve it
-    # Works in root + subfolders (admin, etc.)
-    # --------------------------------------
-    RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule ^(.+)$ $1.php [L]
+# --------------------------------------
+# 2. If a .php file exists, serve it
+# Works in root + subfolders (admin, etc.)
+# --------------------------------------
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
 
-    # --------------------------------------
-    # 3. Otherwise send request to index.php
-    # Keeps routing like /home and /admin/... working
-    # --------------------------------------
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^ index.php [L,QSA]
-
-
+# --------------------------------------
+# 3. Otherwise send request to index.php
+# Keeps routing like /home and /admin/... working
+# --------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L,QSA]
