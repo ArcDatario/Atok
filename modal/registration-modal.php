@@ -28,8 +28,12 @@
 
                     <div class="mb-3">
                         <label for="pax" class="form-label small fw-medium">Number of Pax *</label>
-                        <input type="number" class="form-control form-control-sm" id="pax" required min="1" max="20" value="1" placeholder="Number of persons">
-                        <div class="form-text small">Number of people including yourself</div>
+                        <input type="number" class="form-control form-control-sm" id="pax" required min="1" max="50" value="1" placeholder="Number of persons">
+                        <div class="form-text small">Number of people including yourself (Max: 50)</div>
+                        <div id="paxInfo" class="alert alert-info d-none small p-2 mt-1">
+                            <i class="fas fa-info-circle me-1"></i>
+                            <span id="guidesInfo"></span>
+                        </div>
                     </div>
                     
                     <div class="mb-3">
@@ -53,9 +57,25 @@
                         </div>
                     </div>
                     
+                    <div id="vehicleSection" class="d-none">
+                        <div class="mb-3">
+                            <label for="numVehicles" class="form-label small fw-medium">Number of Vehicles *</label>
+                            <input type="number" class="form-control form-control-sm" id="numVehicles" min="1" max="5" value="1" placeholder="Number of vehicles">
+                            <div class="form-text small">Number of vehicles you will bring (Max: 5)</div>
+                        </div>
+                    </div>
+                    
                     <div id="parkingInfo" class="alert alert-info d-none small p-2">
                         <i class="fas fa-info-circle me-1"></i>
-                        Car parking: ₱200/day additional charge
+                        Car parking: ₱200/day per vehicle additional charge
+                    </div>
+
+                    <div id="feeSummary" class="alert alert-warning d-none small p-2">
+                        <i class="fas fa-calculator me-1"></i>
+                        <div><strong>Fee Breakdown:</strong></div>
+                        <div id="guideFeeText"></div>
+                        <div id="parkingFeeText" class="d-none"></div>
+                        <div class="mt-1"><strong>Total: <span id="totalFee">₱0</span></strong></div>
                     </div>
                 </form>
             </div>
