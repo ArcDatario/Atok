@@ -1,6 +1,6 @@
 <div class="header">
 			<div class="header-left">
-				<a href="dashboard" class="logo"> <img src="assets/img/lock.png" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
+				<a href="dashboard" class="logo"> <img src="assets/img/lock.png" width="50" height="70" alt="logo"> <span class="logoclass">Atok</span> </a>
 			</div>
 			<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
 			<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
@@ -57,10 +57,5 @@
                           <a class="dropdown-item" href="logout">Logout</a> </div>
 				</li>
 			</ul>
-			<div class="top-nav-search">
-				<form>
-					<input type="text" class="form-control" placeholder="Search here">
-					<button class="btn" type="submit"><i class="fas fa-search"></i></button>
-				</form>
-			</div>
+			
 		</div>

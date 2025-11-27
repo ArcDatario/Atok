@@ -52,7 +52,7 @@ require_once 'auth_check.php';
 								<div class="dash-widget-header">
 									<div>
 										<h3 class="card_widget_header">236</h3>
-										<h6 class="text-muted">Total Booking</h6> </div>
+										<h6 class="text-muted">Total</h6> </div>
 									<div class="ml-auto mt-md-3 mt-lg-0"> <span class="opacity-7 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="#009688" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user-plus">
 									<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
 									<circle cx="8.5" cy="7" r="4"></circle>
@@ -69,7 +69,7 @@ require_once 'auth_check.php';
 								<div class="dash-widget-header">
 									<div>
 										<h3 class="card_widget_header">180</h3>
-										<h6 class="text-muted">Available Rooms</h6> </div>
+										<h6 class="text-muted">Available</h6> </div>
 									<div class="ml-auto mt-md-3 mt-lg-0"> <span class="opacity-7 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="#009688" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign">
 									<line x1="12" y1="1" x2="12" y2="23"></line>
 									<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
@@ -127,7 +127,7 @@ require_once 'auth_check.php';
 					<div class="col-md-12 col-lg-6">
 						<div class="card card-chart">
 							<div class="card-header">
-								<h4 class="card-title">ROOMS BOOKED</h4> </div>
+								<h4 class="card-title">REGISTRATIONS</h4> </div>
 							<div class="card-body">
 								<div id="donut-chart"></div>
 							</div>
