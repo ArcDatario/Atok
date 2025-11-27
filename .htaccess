@@ -6,27 +6,34 @@ RewriteEngine On
 ErrorDocument 404 /error-404.php
 
 # --------------------------------------
-# Exclude AJAX/API files from URL rewriting
+# BLOCK 1: Direct access to processing PHP files (keep them as .php)
 # --------------------------------------
-RewriteRule ^(registration_process|ajax_.*|api_.*)\.php$ - [L]
+RewriteCond %{REQUEST_URI} \.php$ [NC]
+RewriteRule ^ - [L]
 
 # --------------------------------------
-# 1. Redirect .php → clean URL
+# BLOCK 2: Exclude existing files and directories
 # --------------------------------------
-RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?]
-RewriteRule ^ %1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
 
 # --------------------------------------
-# 2. If a .php file exists, serve it
-# Works in root + subfolders (admin, etc.)
+# BLOCK 3: Clean URLs - if no extension, try adding .php
 # --------------------------------------
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.+)$ $1.php [L]
 
 # --------------------------------------
-# 3. Otherwise send request to index.php
-# Keeps routing like /home and /admin/... working
+# BLOCK 4: Specific routes that should go to index.php
+# --------------------------------------
+RewriteCond %{REQUEST_URI} ^/(atok/)?(home|dashboard|login|settings|profile)/?$ [NC]
+RewriteRule ^ index.php [L]
+
+# --------------------------------------
+# BLOCK 5: 404 for all other non-existent files
 # --------------------------------------
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [L,QSA]
+RewriteCond %{REQUEST_FILENAME}.php !-f
+RewriteRule ^ - [R=404]
