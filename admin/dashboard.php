@@ -10,16 +10,16 @@
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="assets/css/feathericon.min.css">
-	<link rel="stylehseet" href="https://cdn.oesmith.co.uk/morris-0.5.1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
 	<link rel="stylesheet" href="assets/plugins/morris/morris.css">
-	<link rel="stylesheet" href="assets/css/style.css"> </head>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
 
 <body>
 	<div class="main-wrapper">
 		<div class="header">
 			<div class="header-left">
 				<a href="dashboard" class="logo"> <img src="assets/img/lock.png" width="50" height="70" alt="logo"> <span class="logoclass">HOTEL</span> </a>
-				<a href="dashboard" class="logo logo-small"> <img src="assets/img/lock.png" alt="Logo" width="30" height="30"> </a>
 			</div>
 			<a href="javascript:void(0);" id="toggle_btn"> <i class="fe fe-text-align-left"></i> </a>
 			<a class="mobile_btn" id="mobile_btn"> <i class="fas fa-bars"></i> </a>
@@ -80,34 +80,34 @@
 				</form>
 			</div>
 		</div>
-<div class="sidebar" id="sidebar">
-    <div class="sidebar-inner slimscroll">
-        <div id="sidebar-menu" class="sidebar-menu">
-            <ul>
-                <!-- Dashboard -->
-                <li class="active">
-                    <a href="dashboard"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
-                </li>
-                <li class="list-divider"></li>
+		<div class="sidebar" id="sidebar">
+			<div class="sidebar-inner slimscroll">
+				<div id="sidebar-menu" class="sidebar-menu">
+					<ul>
+						<!-- Dashboard -->
+						<li class="active">
+							<a href="dashboard"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
+						</li>
+						<li class="list-divider"></li>
 
-                <!-- Registrations -->
-                <li>
-                    <a href="registrations"><i class="fas fa-user-plus"></i> <span>Registrations</span></a>
-                </li>
+						<!-- Registrations -->
+						<li>
+							<a href="registrations"><i class="fas fa-user-plus"></i> <span>Registrations</span></a>
+						</li>
 
-                <!-- Tourguide -->
-                <li>
-                    <a href="tourguide"><i class="fas fa-map-signs"></i> <span>Tourguide</span></a>
-                </li>
+						<!-- Tourguide -->
+						<li>
+							<a href="tourguide"><i class="fas fa-map-signs"></i> <span>Tourguide</span></a>
+						</li>
 
-                <!-- Parking -->
-                <li>
-                    <a href="parking"><i class="fas fa-parking"></i> <span>Parking</span></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+						<!-- Parking -->
+						<li>
+							<a href="parking"><i class="fas fa-parking"></i> <span>Parking</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -309,7 +309,7 @@
 			</div>
 		</div>
 	</div>
-	<script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	
 	<script src="assets/js/jquery-3.5.1.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
