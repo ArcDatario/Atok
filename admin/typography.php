@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 <title>Hotel Dashboard Template</title>
 
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+<link rel="shortcut icon" href="icon/pin.png" type="image/x-icon">
 
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 

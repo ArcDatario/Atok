@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-	<title>Hotel Dashboard Template</title>
-	
+	<title>Ed-Atok | Admin</title>
+	<link rel="shortcut icon" href="icon/pin.png" type="image/x-icon">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
 	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
@@ -106,150 +106,37 @@
 				</form>
 			</div>
 		</div>
-		<div class="sidebar" id="sidebar">
-			<div class="sidebar-inner slimscroll">
-				<div id="sidebar-menu" class="sidebar-menu">
-					<ul>
-						<li class="active"> <a href="dashboard"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a> </li>
-						<li class="list-divider"></li>
-						<li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i> <span> Booking </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="all-booking"> All Booking </a></li>
-								<li><a href="edit-booking"> Edit Booking </a></li>
-								<li><a href="add-booking"> Add Booking </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Customers </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="all-customer"> All customers </a></li>
-								<li><a href="edit-customer"> Edit Customer </a></li>
-								<li><a href="add-customer"> Add Customer </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-key"></i> <span> Rooms </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="all-rooms">All Rooms </a></li>
-								<li><a href="edit-room"> Edit Rooms </a></li>
-								<li><a href="add-room"> Add Rooms </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Staff </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="all-staff">All Staff </a></li>
-								<li><a href="edit-staff"> Edit Staff </a></li>
-								<li><a href="add-staff"> Add Staff </a></li>
-							</ul>
-						</li>
-						<li> <a href="pricing"><i class="far fa-money-bill-alt"></i> <span>Pricing</span></a> </li>
-						<li class="submenu"> <a href="#"><i class="fas fa-share-alt"></i> <span> Apps </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="chat"><i class="fas fa-comments"></i><span> Chat </span></a></li>
-								<li class="submenu"> <a href="#"><i class="fas fa-video camera"></i> <span> Calls </span> <span class="menu-arrow"></span></a>
-									<ul class="submenu_class" style="display: none;">
-										<li><a href="voice-call"> Voice Call </a></li>
-										<li><a href="video-call"> Video Call </a></li>
-										<li><a href="incoming-call"> Incoming Call </a></li>
-									</ul>
-								</li>
-								<li class="submenu"> <a href="#"><i class="fas fa-envelope"></i> <span> Email </span> <span class="menu-arrow"></span></a>
-									<ul class="submenu_class" style="display: none;">
-										<li><a href="compose">Compose Mail </a></li>
-										<li><a href="inbox"> Inbox </a></li>
-										<li><a href="mail-veiw"> Mail Veiw </a></li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-user"></i> <span> Employees </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="employees">Employees List </a></li>
-								<li><a href="leaves">Leaves </a></li>
-								<li><a href="holidays">Holidays </a></li>
-								<li><a href="attendance">Attendance </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="far fa-money-bill-alt"></i> <span> Accounts </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="invoices">Invoices </a></li>
-								<li><a href="payments">Payments </a></li>
-								<li><a href="expenses">Expenses </a></li>
-								<li><a href="taxes">Taxes </a></li>
-								<li><a href="provident-fund">Provident Fund </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-book"></i> <span> Payroll </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="salary">Employee Salary </a></li>
-								<li><a href="salary-veiw">Payslip </a></li>
-							</ul>
-						</li>
-						<li> <a href="calendar"><i class="fas fa-calendar-alt"></i> <span>Calendar</span></a> </li>
-						<li class="submenu"> <a href="#"><i class="fe fe-table"></i> <span> Blog </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="blog">Blog </a></li>
-								<li><a href="blog-details">Blog Veiw </a></li>
-								<li><a href="add-blog">Add Blog </a></li>
-								<li><a href="edit-blog">Edit Blog </a></li>
-							</ul>
-						</li>
-						<li> <a href="assets"><i class="fas fa-cube"></i> <span>Assests</span></a> </li>
-						<li> <a href="activities"><i class="far fa-bell"></i> <span>Activities</span></a> </li>
-						<li class="submenu"> <a href="#"><i class="fe fe-table"></i> <span> Reports </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="expense-reports">Expense Report </a></li>
-								<li><a href="invoice-reports">Invoice Report </a></li>
-							</ul>
-						</li>
-						<li> <a href="settings"><i class="fas fa-cog"></i> <span>Settings</span></a> </li>
-						<li class="list-divider"></li>
-						<li class="menu-title mt-3"> <span>UI ELEMENTS</span> </li>
-						<li class="submenu"> <a href="#"><i class="fas fa-laptop"></i> <span> Components </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="uikit">UI Kit </a></li>
-								<li><a href="typography">Typography </a></li>
-								<li><a href="tabs">Tabs </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-edit"></i> <span> Forms </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="form-basic-inputs">Basic Input </a></li>
-								<li><a href="form-input-groups">Input Groups </a></li>
-								<li><a href="form-horizontal">Horizontal Form </a></li>
-								<li><a href="form-vertical">Vertical Form </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="tables-basic">Basic Table </a></li>
-								<li><a href="tables-datatables">Data Table </a></li>
-							</ul>
-						</li>
-						<li class="list-divider"></li>
-						<li class="menu-title mt-3"> <span>EXTRAS</span> </li>
-						<li class="submenu"> <a href="#"><i class="fas fa-columns"></i> <span> Pages </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="login">Login </a></li>
-								<li><a href="register">Register </a></li>
-								<li><a href="forgot-password">Forgot Password </a></li>
-								<li><a href="change-password">Change Password </a></li>
-								<li><a href="lock-screen">Lockscreen </a></li>
-								<li><a href="profile">Profile </a></li>
-								<li><a href="gallery">Gallery </a></li>
-								<li><a href="error-404">404 Error </a></li>
-								<li><a href="error-500">500 Error </a></li>
-								<li><a href="blank-page">Blank Page </a></li>
-							</ul>
-						</li>
-						<li class="submenu"> <a href="#"><i class="fas fa-share-alt"></i> <span> Multi Level </span> <span class="menu-arrow"></span></a>
-							<ul class="submenu_class" style="display: none;">
-								<li><a href="">Level 1 </a></li>
-								<li><a href="">Level 2 </a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-inner slimscroll">
+        <div id="sidebar-menu" class="sidebar-menu">
+            <ul>
+                <!-- Dashboard -->
+                <li class="active">
+                    <a href="dashboard"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
+                </li>
+                <li class="list-divider"></li>
+
+                <!-- Registrations -->
+                <li>
+                    <a href="registrations"><i class="fas fa-user-plus"></i> <span>Registrations</span></a>
+                </li>
+
+                <!-- Tourguide -->
+                <li>
+                    <a href="tourguide"><i class="fas fa-map-signs"></i> <span>Tourguide</span></a>
+                </li>
+
+                <!-- Parking -->
+                <li>
+                    <a href="parking"><i class="fas fa-parking"></i> <span>Parking</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
 		<div class="page-wrapper">
 			<div class="content container-fluid">
 				<div class="page-header">
